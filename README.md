@@ -1,16 +1,38 @@
-# React + Vite
+# Christopher Diaz — Cybersecurity Analyst Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live at **[chris12x1.github.io](https://chris12x1.github.io)**
 
-Currently, two official plugins are available:
+A personal portfolio site for an aspiring SOC / Cybersecurity Analyst, built to showcase hands-on security lab work, tooling, and validated credentials beyond a resume or LinkedIn profile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What's inside
 
-## React Compiler
+- **Skills Matrix** — SecOps, threat management, tools & infrastructure, and engineering skills grouped by category
+- **Security Operations Projects** — hands-on labs covering incident response automation, secure containerized infrastructure, enterprise Active Directory, AI-driven vulnerability discovery, and phishing triage automation
+- **GitHub Repositories** — links to the underlying lab and project repos
+- **Validated Credentials** — CompTIA CSAP, CySA+, and Security+, Splunk Core Certified User, Google Cybersecurity Certificate, Cisco CyberOps Associate, and more
+- **Education History** — CUNY School of Professional Studies, University of Arizona CyberSkills2Work, The Knowledge House Cybersecurity Fellowship, Per Scholas SOC Analyst Track, and Wood Tobe Coburn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- Tailwind CSS
+- Deployed via GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Contact
+
+- Email: christopher.diaz87@yahoo.com
+- LinkedIn: [linkedin.com/in/christopherdiaz87](https://linkedin.com/in/christopherdiaz87)
+- GitHub: [github.com/chris12x1](https://github.com/chris12x1)
