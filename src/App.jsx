@@ -236,6 +236,9 @@ I am currently seeking an entry-level SOC Analyst or Cybersecurity Analyst role 
              <h2 className="text-3xl font-bold pl-4 text-white">Security Operations Projects</h2>
              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
                 {[
+                  // Flagship shipped product — lead with this
+                  { title: 'CyberBrief — AI Threat Intelligence Dashboard', tech: 'Next.js / Gemini 2.5 Flash / Neon Postgres', desc: 'Shipped an AI-powered dashboard that surfaces the most important cybersecurity stories in real time, each summarized and severity-rated. Free + Pro tiers, built solo.', url: 'https://www.cyberbrief.dev', linkLabel: 'VIEW LIVE →' },
+
                   // Restore core labs
                   { title: 'T-LAB 03: Operational Automated Hunt', tech: 'Python / Subprocess / JSON', desc: 'Analyzed failed login logs, isolated attacker IPs via Python, and generated JSON threat reports.', url: 'https://github.com/chris12x1/TKH-Phase1/tree/main/Week3-Artifact' },
                   { title: 'T-LAB 04: Secure Containerized Node', tech: 'Docker / Nmap / Docker Compose', desc: 'Designed hardened multi-tier architecture, engineered network segmentation frontend/backend, and validated isolated environments.', url: 'https://github.com/chris12x1/TKH-Phase1/tree/main/Week4-Artifact' },
@@ -252,7 +255,7 @@ I am currently seeking an entry-level SOC Analyst or Cybersecurity Analyst role 
                     <div className="text-[10px] text-cyan-500 font-bold uppercase tracking-widest">{p.tech}</div>
                     <h3 className="text-white font-bold group-hover:text-cyan-400 text-xl flex justify-between items-center leading-tight">
                       {p.title}
-                      <span className="text-xs text-slate-600 group-hover:text-cyan-600 whitespace-nowrap ml-2">VIEW REPO →</span>
+                      <span className="text-xs text-slate-600 group-hover:text-cyan-600 whitespace-nowrap ml-2">{p.linkLabel || 'VIEW REPO →'}</span>
                     </h3>
                     <p className="text-sm text-slate-400 leading-relaxed flex-1">{p.desc}</p>
                   </a>
@@ -328,6 +331,15 @@ I am currently seeking an entry-level SOC Analyst or Cybersecurity Analyst role 
               <a href="mailto:christopher.diaz87@yahoo.com" className="hover:underline">Email</a>
               <a href="https://linkedin.com/in/christopherdiaz87" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
               <a href="https://github.com/chris12x1" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+            </div>
+            <div className="pt-4">
+              <a
+                href="/Christopher_Diaz_Resume_Cybersecurity_SOC.pdf"
+                download
+                className="inline-block px-6 py-3 bg-cyan-500/10 border border-cyan-500/40 text-cyan-400 rounded-lg text-sm font-mono font-bold uppercase tracking-widest hover:bg-cyan-500/20 hover:border-cyan-500 transition-all"
+              >
+                ⬇ Download Resume
+              </a>
             </div>
           </section>
 
